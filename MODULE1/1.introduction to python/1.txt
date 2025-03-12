@@ -1,0 +1,26 @@
+Que1: Introduction to Python and its Features (simple, high-level, interpreted language).
+ans:  Python is a high-level, interpreted, and general-purpose programming 
+      language, known for its simplicity, readability, and versatility. It was 
+      created by Guido van Rossum and first released in 1991. 
+      Features::> 1)Easy to Learn and Use.
+                  2) Interpreted Language
+                  3) Dynamically Typed
+                  4) Object-Oriented
+                  5) Extensive Standard Library
+                  6) Cross-platform
+                  7) Open Source
+
+Que2: History and evolution of Python.
+ans:  It was created by Guido van Rossum and first released in 1991. Python has 
+    since become one of the most popular programming languages, used in 
+    intelligence, machine learning, automation, and more.
+    various fields, such as web development, data science, artificial 
+
+Que3: Advantages of using Python over other programming languages.
+ans: 1) Easy to Learn and Use
+     2) Cross-Platform Compatibility: Python is platform-independent
+     3) Extensive Libraries and Frameworks
+     4) Large Community Support
+     5)Integration Capabilities
+
+
