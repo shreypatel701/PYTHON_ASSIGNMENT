@@ -1,0 +1,40 @@
+Que:How functional programming works in Python. 
+ans: Functional programming (FP) is a programming paradigm that treats computation as the evaluation of 
+mathematical functions. In Python, FP concepts can be implemented using higher-order functions, lambda 
+functions, and tools like map(), filter(), and reduce().
+
+Que: Using map(), reduce(), and filter() functions for processing data.
+Ans: 
+
+map() – Apply a Function to Each Element
+ex: numbers = [1, 2, 3, 4, 5]
+s1 = list(map(lambda x: x**2,numbers))
+print(squared) 
+
+Output: [1, 4, 9, 16, 25]
+
+filter() – Select Elements Based on a Condition
+ex: numbers = [1, 2, 3, 4, 5, 6]
+even = list(filter(lambda x: x%2== 0,numbers))
+print(evens)
+Output: [2, 4, 6]
+
+reduce() – Cumulatively Apply a Function
+ex: from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+total = reduce(lambda x, y: x + y, numbers)
+print(total_sum)
+
+Output: 15
+
+Que: Introduction to closures and decorators. 
+ans:A closure is a function that remembers the variables from its enclosing scope even after the 
+outer function has finished executing.
+
+A decorator is a special type of closure that allows you to modify the behavior of a function without 
+changing its code.
+
+
+
+
+
