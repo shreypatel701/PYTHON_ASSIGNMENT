@@ -1,0 +1,21 @@
+que: Understanding how generators work in Python.
+ans: Generators are a special type of iterator in Python that allow for lazy evaluation, 
+    meaning they generate values one at a time as needed rather than storing them all in memory.
+
+    A generator is a function that uses the yield keyword instead of return to produce a sequence of values lazily.
+
+Que: Difference Between return and yield
+Feature     	return	                    yield
+Returns 	    Single value	            Multiple values (one at a time)
+Memory Usage	Stores all data in memory	Uses lazy evaluation (efficient)
+Execution	    Stops function completely	Pauses execution (can resume)
+Usage	        Normal functions	        Generators
+
+
+Que:Understanding iterators and creating custom iterators.
+
+An iterator in Python is an object that allows sequential access to elements in a collection without 
+exposing the underlying data structure.
+Iterators follow the Iterator Protocol, meaning they must implement:
+
+To create a custom iterator, define a class with __iter__() and __next__().
