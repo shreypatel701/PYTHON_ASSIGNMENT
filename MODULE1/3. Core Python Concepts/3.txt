@@ -1,0 +1,61 @@
+Que1: Understanding data types: integers, floats, strings, lists, tuples, dictionaries, sets.
+
+ans: integers: int(23) it reperesent whole number.
+     
+     floats: it reperesent hte factional value eg 23.45
+
+     String: It is a collection of character.
+
+     list: It is an ordered collection of items
+
+     tuples:It is a collection of similar and dis-similar data elements.it is ordered, immutable.
+
+     dictionaries:A dictionary is a collection of key-value pairs.
+
+     sets:set is an unordered collection of unique elements.
+
+Que2: Python variables and memory allocation. 
+ans : A Python variable is a reserved memory location to store values.
+      
+      memory allocation in Python:
+       In Python memory allocation and deallocation method is automatic as the Python developers 
+       created a garbage collector for Python so that the user does not have to do manual garbage collection.
+
+Que3: Python operators: arithmetic, comparison, logical, bitwise.
+ans: arithmetic operators:
+
+Operator                    Name
++                           Addition
+-                           Subtraction
+*                           Multiplication
+/                           Division
+%                           Modules
+//                          Floor division
+**                          Exponent
+
+Comparison operator:
+
+Operator        Name
+==              Equal
+!=              Not equal
+>               Greater than
+<               Less than
+>=              Greater than or equal to
+<=              Less than or equal to
+
+Logical operator:
+
+Operator        Name
+And             And operator
+Or              Or operator
+Not             Not operator
+
+Bitwise operator:
+
+Operator        Name            Description
+&               AND             Return 1 if both operand bits are 1
+|               OR              Return 1 if at least one operand bit is 1
+^               XOR             Returns 1 if one of the operand bits is 1 but not both
+~               NOT             Reverse all bits
+<<              Left shift      Operand shift left
+>>              Right shift     Operand shift right
