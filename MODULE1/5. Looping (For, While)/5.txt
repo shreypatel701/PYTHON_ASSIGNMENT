@@ -1,0 +1,57 @@
+Que: Introduction to for and while loops.
+
+Ans:Loop is mainly use for repetition of specific code or statement.
+
+For loop:
+
+For loop is a sequence control loop it means we can decide how many time loop will execute.
+In for loop we use range() function. 
+By default for loop starts from 0 and end last-1.
+Range(start,end,step)
+Ex:for i in range(1,6):
+print(“hello”)
+it will print hello five times
+
+While loop:
+While loop is a entry control loop, it means we don’t know how many times it will run but it
+terminates when specific given condition is true.
+
+While condition:
+Block of code
+
+Que: How loops work in Python.
+Ans: loop is mainly use for repetition of specific code of specific statement until given condition is
+satisfied. nested loop allows to use loop inside a loop.
+while loop:
+in this, code will execute until give condition is satisfied. when the condition becomes false the
+code after loop will execute.
+
+initialization
+while condition:
+block of code
+
+for loop:
+for loop is a sequence control loop it means we can decide how many time loop will execute.
+In for loop we use range() function. By using of range function we can control loop where to start
+and where to end and also in how many steps.
+By default for loop starts from 0 and end last-1.
+Range(start,end,step)
+Ex.
+for i in range(1,6):
+print(“hello”)
+it will print hello five times
+
+Que Using loops with collections (lists, tuples, etc.).
+ans: List is a collection of similar and dis-similar data elements. It is mutable means we can change its
+value.
+Ex: l1 = [“shrey’” , 45 , “patel”]
+for i in l1:
+print(i)
+
+use of loop in tuple:
+tuple is a collection of similar and dis-similar data elements. It is immutable means we cant
+change its vlaue
+Ex.
+t1 = (“shrey” , 45 , “patel”)
+for i in t1:
+print(i)
