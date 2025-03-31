@@ -1,0 +1,44 @@
+Que1: Introduction to conditional statements: if, else, elif.
+
+ans: Decision making is anticipation of conditions occurring while execution of 
+the program and specifying actions taken according to the conditions.
+
+if conditions: this condition is apply when we have to compare the value.
+
+syntax::>     
+        if condition:
+            statements
+
+else conditions: it is apply when the if is false then after else condition is apply 
+
+syntax::>
+        if condition:
+            statements
+        else:
+            statements
+
+elif condition: it apply when we have multiple if and condition then we use elif statements
+
+syntax::> 
+         if condition:
+            statements
+        elif1 condition:
+            statements
+        elif2 condition:
+            statements
+        elif3 condition:
+            statements
+        .
+        .
+        .
+        .
+        .
+
+        else:
+            statements
+
+
+
+Que2: Nested if-else conditions.
+
+ans: 
