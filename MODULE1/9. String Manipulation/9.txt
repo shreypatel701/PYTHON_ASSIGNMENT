@@ -1,0 +1,71 @@
+Que: Understanding how to access and manipulate strings.
+Ans:
+string is collection of characters. it represents text data. in python string which is represented by
+double quotes " " and single quote ' '. string which is immutable - we can't change it's value.
+
+for access string:
+str = “python”
+print(str)
+
+manipulate string:
+1:len()
+2:lower()
+3:upper()
+4:title()
+5:capitalize()
+6:strip()
+7:find()
+8:replace()
+9:startswith()
+10:endswith()
+11:split()
+12:join()
+13:isalpha()
+14:isdigit()
+15:isalnum()
+16:zfill()
+
+
+Que: Basic operations: concatenation, repetition, string methods (upper(), lower(), etc.).
+Ans: concatenation: for concatenation of string use “ + “ .
+
+repetition : for repetition of string use “ * “.
+
+string methods:
+
+len(): Returns the length of a string
+lower(): Converts all characters in the string to lowercase.
+upper():Converts all characters in the string to uppercase.
+capitalize(): Converts the first character of the string to uppercase and the rest to
+lowercase.
+title(): Converts the first character of each word in the string to uppercase.
+strip(): Removes any leading (spaces at the beginning) and trailing (spaces at the
+end) whitespace characters from the string.
+replace(): Replaces a substring within the string with another substring.
+string.replace(old, new, count)
+find(): Searches for a substring and returns the index (position) of the first
+occurrence. If the substring is not found, it returns -1.
+startswith(): Checks if the string starts with the specified substring.
+endswith(): Checks if the string ends with the specified substring.
+split(): Splits the string into a list of substrings based on a specified delimiter (default is
+whitespace).
+join(): Joins a list of strings into a single string, with a specified separator between each
+element.
+isalpha(): Returns True if all characters in the string are alphabetic
+isdigit(): Returns True if all characters in the string are digits
+isalnum(): Returns True if all characters in the string are alphanumeric
+zfill(): fill the string with zero until specific length satisfied.
+
+Que: String slicing.
+Ans: in this, we can extract a specific portion from string. It allows you to access specific part of a string using
+index value.
+
+string[start:end:step]
+start= the index where slicing begins and index character included in result value.
+stop= the index where slicing ends and index character not included in result value.
+step= it decide how many character to skip.
+
+str = “welcome to python”
+print(str[0:4])
+
+output: elco
